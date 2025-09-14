@@ -1,0 +1,63 @@
+import { Exercise } from "@/@types/routes";
+
+export const exerciseList: Exercise[] = [
+  {
+    id: 0,
+    nameFa: "اسکوات با دیوار",
+    nameEn: "wall squat",
+    targetAreas: ["ران", "باسن"],
+    goal: "تقویت عضلات پا و لگن",
+    levels: {
+      sets: 1,
+      reps: 1,
+      duration: 40,
+      rest: "1 دقیقه",
+    },
+    image: "/images/yoga1.jpg",
+  },
+  {
+    id: 1,
+    nameFa: "گربه گاو",
+    nameEn: "cat caw",
+    targetAreas: ["ستون مهره ها"],
+    goal: "بهبود جنبش پذیری مهره ها",
+    levels: { sets: 2, reps: 20, rest: "1 دقیقه", duration: 0 },
+    image: "/images/yoga2.jpg",
+  },
+  {
+    id: 2,
+    nameFa: "چرخش شانه",
+    nameEn: "",
+    targetAreas: [],
+    goal: "",
+    levels: { sets: 1, reps: 1, rest: "", duration: 20, hint: "هر طرف" },
+    image: "/images/yoga1.jpg",
+  },
+  {
+    id: 3,
+    nameFa: "کشش مچ دست",
+    nameEn: "",
+    targetAreas: [],
+    goal: "",
+    levels: { sets: 2, reps: 10, rest: "", duration: 0 },
+    image: "/images/yoga2.jpg",
+  },
+  {
+    id: 4,
+    nameFa: "لمس پاشنه پا نشسته",
+    nameEn: "",
+    targetAreas: [],
+    goal: "",
+    levels: { sets: 1, reps: 1, rest: "", duration: 60 },
+    image: "/images/yoga1.jpg",
+  },
+  {
+    id: 5,
+    nameFa: "کشش مچ دست",
+    nameEn: "",
+    targetAreas: [],
+    goal: "",
+    levels: { sets: 2, reps: 10, rest: "", duration: 0 },
+    image: "/images/yoga2.jpg",
+  },
+];
